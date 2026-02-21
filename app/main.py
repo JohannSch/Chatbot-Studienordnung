@@ -37,6 +37,7 @@ ragproxyagent = RetrieveUserProxyAgent(
         "task": "qa",
         "docs_path": [
             "./Pruefungsordnungen/I41b_2023_PO.pdf",
+            "./Pruefungsordnungen/I41b_2023_SO.pdf",
             os.path.join(os.path.abspath(""), "..", "website", "docs"),
         ],
         "custom_text_types": ["pdf"],
